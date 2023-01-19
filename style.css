@@ -4,6 +4,19 @@
     padding: 0;
 }
 
+/* NAVBAR */
+.btn-car {
+    background-color: #5CB85F;
+    color: #ffffff;
+    border-radius: 2px;
+    height: 36px;
+    width: 81px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+}
+/* NAVBAR END */
+
 /* CONTENT 1 */
 .home {
     padding-top: 6rem;
@@ -31,5 +44,54 @@
 .services {
     padding-top: 10rem;
 }
-
+.img-girl {
+    padding-left: 2rem;
+}
+.detail-service {
+    padding-top: 3rem;
+    padding-left: 2.2rem;
+}
+.list-car, ul{
+    list-style-type: none;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.list-car, li {
+    margin: 15px 0;
+}
 /* CONTENT 2 END */
+
+/* WHY US */
+.why-us{
+    padding-top: 7rem;
+}
+.why-us-text, h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.why-us-text, p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+}
+/* WHY US END */
+
+/* TESTIMONIAL */
+.testimonial-judul {
+    padding-top: 10rem;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.testimonial-paragraf {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+.carousel {
+    padding-top: 12rem;
+}
+/* TESTIMONIAL END */
+
