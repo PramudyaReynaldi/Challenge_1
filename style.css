@@ -76,11 +76,28 @@
     font-weight: 300;
     line-height: 20px;
 }
+.why-us-card {
+    width: 268px;
+    height: 196px;
+}
+.why-us-card h6 {
+    color: #000000;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: normal;
+}
+.why-us-card p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
+
 /* WHY US END */
 
 /* TESTIMONIAL */
 .testimonial-judul {
-    padding-top: 10rem;
+    padding-top: 15rem;
     font-weight: 700;
     font-size: 24px;
     line-height: 36px;
@@ -92,6 +109,15 @@
 }
 .carousel {
     padding-top: 12rem;
+}
+.shadow-carousel {
+    width: 430px;
+    height: 200px;
+}
+.testimonial-text {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
 }
 /* TESTIMONIAL END */
 
