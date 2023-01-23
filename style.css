@@ -36,6 +36,7 @@
 .img-content {
     height: 407px;
     width: 704px;
+    padding-right: 40px;
 }
 /* CONTENT 1 END */
 
@@ -110,14 +111,68 @@
 .carousel {
     padding-top: 12rem;
 }
-.shadow-carousel {
-    width: 430px;
-    height: 200px;
+.rating-carousel .shadow-sm {
+    width: 365px;
+    height: 161px;
 }
-.testimonial-text {
+.img-testimoni {
+    width: 80px;
+    height: 80px;
+    padding-top: 36px;
+}
+/* TESTIMONIAL END */
+
+/* SEWA MOBIL */
+.sewa-mobil {
+    padding-top: 10rem;
+}
+.sewa-mobil .container-sm {
+    background-color: #0D28A6;
+}
+.sewa-mobil .container-sm h2 {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+}
+.sewa-mobil .container-sm p {
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: 300;
+}
+.btn-mulai-sewa {
+    color: #ffffff;
+    background-color: #5CB85F;
+    width: 140px;
+    height: 36px;
+    font-size: 14px;
+}
+/* END */
+
+/* FAQ */
+.faq-content {
+    padding-top: 10rem;
+}
+.faq-content h3 {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+}
+.faq-content p {
     font-weight: 300;
     font-size: 14px;
     line-height: 20px;
 }
-/* TESTIMONIAL END */
+/* FAQ END */
+
+/* FOOTER */
+.footer {
+    padding-top: 10rem;
+}
+.footer p {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 20px;
+}
 
