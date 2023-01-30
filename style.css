@@ -61,9 +61,19 @@
 .img-girl {
   padding-left: 2rem;
 }
+.detail-service p {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 20px;
+}
 .detail-service {
   padding-top: 3rem;
   padding-left: 2.2rem;
+}
+.detail-service h2 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
 }
 .list-car,
 ul {
@@ -98,8 +108,7 @@ p {
   line-height: 20px;
 }
 .why-us-card {
-  width: 268px;
-  height: 196px;
+  min-height: 210px;
 }
 .why-us-card h6 {
   color: #000000;
@@ -126,8 +135,7 @@ p {
 .single-testimonial {
   background: #f1f3ff;
   padding-left: 40px;
-  /* position: relative;  */
-  margin: 0 15px 15px;
+  position: relative; 
   width: 550px;
   height: 240px;
 }
@@ -167,24 +175,22 @@ p {
 
 /* jquery styling testimonial*/
 .owl-carousel div.owl-nav {
-  color: #222222;
-  display: inline-block;
-  font-size: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 60px;
-  margin-top: -30px;
-  text-align: center;
   width: 40px;
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 .owl-prev,
 .owl-next {
   position: absolute;
 }
 .owl-next {
-  right: 45%;
+  right: 35%;
 }
 .owl-prev {
-  left: 45%;
+  left: 35%;
 }
 /* TESTIMONIAL END */
 
@@ -219,6 +225,9 @@ p {
 /* FAQ */
 .faq-content {
   padding-top: 10rem;
+}
+.accordion-item {
+  margin: 20px 0;
 }
 .faq-content h3 {
   font-weight: 700;
