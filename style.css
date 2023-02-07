@@ -68,7 +68,7 @@
 }
 .detail-service {
   padding-top: 3rem;
-  padding-left: 2.2rem;
+  padding-left: 2.1rem;
 }
 .detail-service h2 {
   font-weight: 700;
@@ -86,8 +86,9 @@ ul {
 li {
   margin: 15px 0;
 }
-.list-car span {
-  padding-left: 1rem;
+.list-car ul li {
+  gap: 20px;
+  display: flex;
 }
 /* OUR-SERVICES END*/
 
@@ -122,7 +123,11 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
-
+@media screen and (max-width: 765px) {
+  .why-us-text {
+    text-align: center;
+  }
+}
 /* WHY US END */
 
 /* TESTIMONIAL */
@@ -187,10 +192,18 @@ p {
   position: absolute;
 }
 .owl-next {
-  right: 35%;
+  right: 45%;
 }
 .owl-prev {
-  left: 35%;
+  left: 45%;
+}
+@media screen and (max-width: 995px) {
+  .owl-next {
+    right: 35%;
+  }
+  .owl-prev {
+    left: 35%;
+  }
 }
 /* TESTIMONIAL END */
 
