@@ -130,7 +130,7 @@ p {
   font-size: 14px;
   line-height: 20px;
 }
-@media screen and (max-width: 765px) {
+@media screen and (max-width: 991px) {
   .why-us-text {
     text-align: center;
   }
@@ -184,7 +184,19 @@ p {
 .testi-text .fa-solid {
   color: #f9cc00;
 }
-
+@media screen and (max-width: 1199px) {
+  .owl-carousel .item {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 999px) {
+  .owl-carousel .item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
 /* jquery styling testimonial*/
 .owl-carousel div.owl-nav {
   display: flex;
@@ -203,6 +215,11 @@ p {
 }
 .owl-prev {
   left: 45%;
+}
+.owl-carousel .item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (max-width: 995px) {
   .owl-next {
